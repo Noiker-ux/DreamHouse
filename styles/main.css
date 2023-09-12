@@ -920,9 +920,7 @@ letter-spacing: 3px;
         flex-direction: column;
         gap: 50px;
     }
-    .statistic-more-info{
-        padding-top: 100px;
-    }
+
 }
 @media (max-width: 700px){
     .price__calc{
@@ -1003,7 +1001,7 @@ letter-spacing: 3px;
    }
    .wrapper-inner{
     padding-left: 0;
-    padding-top: 15px;
+
    }
 
 }

@@ -27,10 +27,12 @@ $(document).ready(function() {
         max: 500
     });
 
+    
     $('.smeta__slider').slick({
         dots:true,
         arrows: false
     });
+
 
     let metrs;
     let formatter = new Intl.NumberFormat("ru");
