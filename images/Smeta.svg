@@ -1,0 +1,19 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.5 52.5V52.5C4.34077 52.5 0.241189 56.8414 0.527371 61.9927V61.9927C0.792329 66.7619 4.73728 70.5 9.51388 70.5H47.5" stroke="#FFAC30"/>
+<path d="M0.5 61.5L0.5 15C0.5 10.0294 4.52944 6 9.5 6V6V53" stroke="#FFAC30"/>
+<line x1="9" y1="18.5" x2="46" y2="18.5" stroke="#FFAC30"/>
+<line x1="61" y1="18.5" x2="72" y2="18.5" stroke="#FFAC30"/>
+<line x1="71.5" y1="47" x2="71.5" y2="19" stroke="#FFAC30"/>
+<path d="M36.1698 43.1725L67.3366 12.0057C69.3642 9.97812 69.3642 6.69083 67.3366 4.66329V4.66329C65.3091 2.63574 62.0218 2.63574 59.9943 4.66328L28.8274 35.8301" stroke="#FFAC30"/>
+<path d="M28.696 36.4031L35.5881 43.2952L25.4514 46.5398L28.696 36.4031Z" fill="#FFAC30" stroke="#FFAC30"/>
+<path d="M67.216 4.6711C69.2436 6.69864 69.2436 9.98593 67.216 12.0135L64.3424 14.8871L57 7.54475L59.8736 4.6711C61.9012 2.64356 65.1885 2.64356 67.216 4.6711Z" fill="#FFAC30"/>
+<line x1="55.3536" y1="9.64645" x2="62.3536" y2="16.6464" stroke="#FFAC30"/>
+<line x1="29.3536" y1="35.6464" x2="36.3536" y2="42.6464" stroke="#FFAC30"/>
+<line x1="20.5" y1="47.5" x2="52.5" y2="47.5" stroke="#FFAC30" stroke-linecap="round"/>
+<path d="M56 62L79 39V79H39L52 66" stroke="#FFAC30" stroke-linecap="round"/>
+<path d="M59.2071 70.5L69.5 60.2071V70.5H59.2071Z" stroke="#FFAC30"/>
+<line x1="74.5" y1="52.5" x2="78.5" y2="52.5" stroke="#FFAC30" stroke-linecap="round"/>
+<line x1="74.5" y1="59.5" x2="78.5" y2="59.5" stroke="#FFAC30" stroke-linecap="round"/>
+<line x1="74.5" y1="64.5" x2="78.5" y2="64.5" stroke="#FFAC30" stroke-linecap="round"/>
+<line x1="74.5" y1="70.5" x2="78.5" y2="70.5" stroke="#FFAC30" stroke-linecap="round"/>
+</svg>
