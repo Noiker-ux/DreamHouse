@@ -832,7 +832,8 @@ letter-spacing: 3px;
         flex-direction: column;
     }
     .statistic-more-info{
-        margin-top: 80px;
+        display: block;
+        text-align: center;
     }
     .statistic__slogan{
         margin-top: 30px;
@@ -869,7 +870,7 @@ letter-spacing: 3px;
         margin-top: 50px;
         gap: 50px;
     }
-    .price__puck::after{
+    .price__puck::after{ 
         width: 1px;
         height: 30px;
         left: 50%;
@@ -892,6 +893,9 @@ letter-spacing: 3px;
     }
     .works__inner{
         flex-direction: column;
+    }
+    .statistic-more-info{
+        margin-top: 5vh;
     }
  
 
@@ -929,6 +933,10 @@ letter-spacing: 3px;
     .price__inner{
         padding-top: 15vh;
     }
+    .statistic-more-info::before{
+        left: auto;
+        right: auto;
+    }
 }
 @media (max-width: 650px){
     .nav-circles {
@@ -939,6 +947,9 @@ letter-spacing: 3px;
     }
     .works_section>.works_section-dsc>p{
         font-size: 12px;
+    }
+    .wrapper-inner{
+        padding-top: 15vh;
     }
 }
 
