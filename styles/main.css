@@ -763,10 +763,20 @@ letter-spacing: 3px;
     margin-top: 2rem;
 }
 .rooms_inner{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 0 0 0 100px;
+}
+.rooms_inner>img:nth-child(1), .rooms_inner>img:nth-child(3), .rooms_inner>img:nth-child(2){
+    margin-top: auto;
+}
+.rooms_inner>img:nth-child(2),.rooms_inner>img:nth-child(5){
+    width: 100%;
+}
+.rooms_inner>img:nth-child(4){
+    margin-left: auto;
 }
 .header-slog{
     display: none;
@@ -804,6 +814,35 @@ letter-spacing: 3px;
         right: auto;
         left: 0;
     }
+    .smeta__slider-item{
+        flex-direction: column;
+        gap: 30px;
+        width: 400px;
+        text-align: center;
+    }
+    .smeta__slider-item>p{
+        width: 400px;
+    }
+    .smeta__inner{
+        padding-left: 0;
+        padding-top:45vh;
+    }
+    .smeta__slogan{
+        margin-left: 0;
+        text-align: center;
+    }
+    .slick-dots{
+        left: calc(50% - 90px);
+        right: auto;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 2px solid var(--orange-color);
+        top: -20rem;
+    }
+    .smeta__slider{
+        width: auto;
+    }
 }
 
 @media (max-width: 1100px){
@@ -816,6 +855,16 @@ letter-spacing: 3px;
     }
 }
 @media (max-width: 950px){
+    .rooms_inner{
+        display: block;
+        padding-top: 30px;
+        padding: 0;
+    }
+    .rooms_inner>img{
+        width: 100%;
+        height: 340px;
+        object-fit: cover;
+    }
     .preview__slogan{
         margin: 30vw 0 0 10vw;
         width: 80vw;
@@ -834,6 +883,10 @@ letter-spacing: 3px;
     .statistic-more-info{
         display: block;
         text-align: center;
+    }
+    .statistic-more-info::before{
+        left: auto;
+        right: auto;
     }
     .statistic__slogan{
         margin-top: 30px;
@@ -933,10 +986,7 @@ letter-spacing: 3px;
     .price__inner{
         padding-top: 15vh;
     }
-    .statistic-more-info::before{
-        left: auto;
-        right: auto;
-    }
+
 }
 @media (max-width: 650px){
     .nav-circles {
@@ -1014,7 +1064,11 @@ letter-spacing: 3px;
     padding-left: 0;
 
    }
-
+}
+@media (max-width: 425px){
+    .smeta__slider-item>p{
+        width: auto;
+    }
 }
 @media (max-height: 715px){
    .rs-container,.rslider{
